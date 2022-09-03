@@ -12,13 +12,13 @@ variable "vpc_name" {
 
 variable "vpc_dns_support" {
   description = "[Optional] Specify vpc dns support "
-  type        = boolean
+  type        = bool
   default     = true # this is the default value from terraform 
 }
 
 variable "enable_dns_hostnames" {
   description = "[Optional] Specify DNS hostname resolution "
-  type        = boolean
+  type        = bool
   default     = false # this is the default value from terraform 
 }
 
