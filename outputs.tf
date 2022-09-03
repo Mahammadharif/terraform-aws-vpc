@@ -1,6 +1,6 @@
 output "this_vpc_id" {
     description = "The ID of the VPC"
-    value = aws_vpc.this_vpc.id
+    value = aws_vpc.id
 }
 
 # output "this_vpc_arn" {
