@@ -16,7 +16,7 @@ variable "vpc_dns_support" {
   default     = true # this is the default value from terraform 
 }
 
-variable "enable_dns_hostnames" {
+variable "vpc_enable_dns_hostnames" {
   description = "[Optional] Specify DNS hostname resolution "
   type        = bool
   default     = false # this is the default value from terraform 
